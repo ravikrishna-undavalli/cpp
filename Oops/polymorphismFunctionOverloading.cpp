@@ -2,14 +2,19 @@ Polymorphism:
    Poly->many
    morph->forms
 so we can simply say many forms
-In short we have functions that are having same name but different in paramaters or return type
 
 There are Two types of polymorphism
 1. Static Binding / Fast Binding
 2. Dyanmic Binding / Slow Binding
 
 static Binding:
+  It is of two types
+    1. Function overloading
+    2. Operator overloading
+
+Function Overloading:
       Static Binding is having same function name but different in parameters or return type.
+    
 Example:
   int add(int a, int b);
   float add(float a, float b);
